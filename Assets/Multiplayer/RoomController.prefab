@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2915728245295630122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2915728245295630124}
+  - component: {fileID: 4018656949742874145}
+  m_Layer: 0
+  m_Name: RoomController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2915728245295630124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915728245295630122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 722.5, y: 425, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4018656949742874145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915728245295630122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48eae8cfd4f3c5240a432f22083fbd54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ships:
+  - {fileID: 4479617575606587634, guid: 71c278031e91d404690dda096a77102d, type: 3}
+  - {fileID: 4479617575606587634, guid: 3617912175a1c4c4a8f0eb67473ee08f, type: 3}
+  - {fileID: 4479617575606587634, guid: ef65fcb58f63e634ab40de9bbf12a1c0, type: 3}
+  - {fileID: 4479617575606587634, guid: af5b12a96692e7544bbd6907a47001c2, type: 3}
+  - {fileID: 4479617575606587634, guid: 71c278031e91d404690dda096a77102d, type: 3}
+  - {fileID: 4479617575606587634, guid: 3617912175a1c4c4a8f0eb67473ee08f, type: 3}
+  - {fileID: 4479617575606587634, guid: ef65fcb58f63e634ab40de9bbf12a1c0, type: 3}
+  - {fileID: 4479617575606587634, guid: af5b12a96692e7544bbd6907a47001c2, type: 3}
+  - {fileID: 4479617575606587634, guid: 71c278031e91d404690dda096a77102d, type: 3}
+  - {fileID: 4479617575606587634, guid: 3617912175a1c4c4a8f0eb67473ee08f, type: 3}
+  - {fileID: 4479617575606587634, guid: ef65fcb58f63e634ab40de9bbf12a1c0, type: 3}
+  - {fileID: 4479617575606587634, guid: af5b12a96692e7544bbd6907a47001c2, type: 3}
+  multiPlayerSceneIndex: 11
+  lobbyPanel: {fileID: 0}
+  roomPanel: {fileID: 0}
+  startButton: {fileID: 0}
+  playersContainer: {fileID: 0}
+  playerListingPrefab: {fileID: 2366520019025158042, guid: 86ebf534f9731c241b5e0f78b831e975,
+    type: 3}
+  roomNameDisplay: {fileID: 0}
